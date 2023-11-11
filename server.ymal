@@ -1,0 +1,15 @@
+v2board:
+  apiHost: https://example.com
+  apiKey: 123456789
+  nodeID: 1
+tls:
+  type: tls
+  cert: /etc/hysteria/example.com.crt
+  key: /etc/hysteria/example.com.key
+auth:
+  type: v2board
+trafficStats:
+  listen: 127.0.0.1:7653
+acl: 
+  inline: 
+    - reject(pincong.rocks)

@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  hysteria:
+    image: cedar2026/hysteria2-v2b:1.0.2
+    container_name: hysteria
+    restart: always
+    network_mode: "host"
+    volumes:
+      - ./server.ymal:/etc/hysteria/server.ymal
+      - ./example.com.crt:/etc/hysteria/example.com.crt
+      - ./example.com.key:/etc/hysteria/example.com.key
+    command: ["server", "-c", "/etc/hysteria/server.ymal"]
+
