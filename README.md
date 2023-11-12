@@ -49,8 +49,7 @@ acl:
 `yum install -y openssl curl socat`  
 `curl https://get.acme.sh | sh -s email=office123@outlook.com`  
 `~/.acme.sh/acme.sh --upgrade --auto-upgrade`  
-可选：切换申请letsencrypt的证书  
-`~/.acme.sh/acme.sh --set-default-ca --server letsencrypt`  
+可选：切换申请letsencrypt的证书，`~/.acme.sh/acme.sh --set-default-ca --server letsencrypt`  
 `example.com`换成你自己的后端vps绑定域名  
 `~/.acme.sh/acme.sh --issue -d example.com --standalone`  
 `~/.acme.sh/acme.sh --install-cert -d example.com --key-file /etc/hysteria/example.com.key`  
