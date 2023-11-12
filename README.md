@@ -26,3 +26,18 @@
 ### 启动docker compose  
 `docker compose up -d`  
 `docker logs -f hysteria`  
+
+```javascript
+version: "3.9"
+services:
+  hysteria:
+    image: ghcr.io/isisno/hysteria:latest
+    container_name: hysteria
+    restart: always
+    network_mode: "host"
+    volumes:
+      - ./server.yaml:/etc/hysteria/server.yaml
+      - ./example.com.crt:/etc/hysteria/example.com.crt
+      - ./example.com.key:/etc/hysteria/example.com.key
+    command: ["server", "-c", "/etc/hysteria/server.yaml"]
+```
