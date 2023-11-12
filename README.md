@@ -6,7 +6,7 @@
 `docker --version`  
 `docker compose version`  
 
-### 下载并修改配置文件,包括前端信息和后端域名  
+### 下载并修改配置文件docker-compose.yml,server.yaml,包括前端信息和后端域名  
 `cd /etc`  
 `git clone https://github.com/isisno/hysteria.git`  
 `cd /etc/hysteria`  
