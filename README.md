@@ -1,3 +1,4 @@
+### 基于centos7系统
 ### 安装docker，docker compose
 `curl -fsSL https://get.docker.com | bash -s docker`  
 `sudo systemctl start docker`  
