@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   hysteria:
-    image: cedar2026/hysteria2-v2b:1.0.2
+    image: ghcr.io/isisno/hysteria:latest
     container_name: hysteria
     restart: always
     network_mode: "host"
