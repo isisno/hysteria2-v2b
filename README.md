@@ -8,7 +8,7 @@
 
 ### 下载并修改配置文件docker-compose.yml,server.yaml,包括前端信息和后端域名  
 `cd /etc`  
-`git clone https://github.com/isisno/hysteria.git`  
+`git clone https://github.com/isisno/hysteria2pro.git`  
 `cd /etc/hysteria`  
 
 ### ---配置文件docker-compose.yml参考  
