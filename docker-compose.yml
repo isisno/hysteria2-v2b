@@ -6,8 +6,8 @@ services:
     restart: always
     network_mode: "host"
     volumes:
-      - ./server.ymal:/etc/hysteria/server.ymal
+      - ./server.yaml:/etc/hysteria/server.yaml
       - ./example.com.crt:/etc/hysteria/example.com.crt
       - ./example.com.key:/etc/hysteria/example.com.key
-    command: ["server", "-c", "/etc/hysteria/server.ymal"]
+    command: ["server", "-c", "/etc/hysteria/server.yaml"]
 
