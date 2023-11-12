@@ -1,5 +1,5 @@
-#### 基于centos7系统,原作者https://github.com/cedar2025/hysteria,适用v2board版本https://github.com/wyx2685/v2board
-### 安装docker，docker compose
+#### 适用v2board版本https://github.com/wyx2685/v2board，原作者https://github.com/cedar2025/hysteria，基于centos7系统  
+### 安装docker，docker compose  
 `curl -fsSL https://get.docker.com | bash -s docker`  
 `sudo systemctl start docker`  
 `sudo systemctl enable docker`  
