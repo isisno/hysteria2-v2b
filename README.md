@@ -12,7 +12,7 @@
 `cd /etc/hysteria`  
 
 ### ---配置文件docker-compose.yml参考  
-```javascript
+```
 version: "3.9"
 services:
   hysteria:
@@ -27,7 +27,7 @@ services:
     command: ["server", "-c", "/etc/hysteria/server.yaml"]
 ```
 ### ---配置文件server.yaml参考  
-```javascript
+```
 v2board:
   apiHost: https://example.com #v2board面板域名
   apiKey: 123456789 #通讯密钥
