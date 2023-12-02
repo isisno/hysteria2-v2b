@@ -12,4 +12,4 @@ trafficStats:
   listen: 127.0.0.1:7653
 acl: 
   inline: 
-    - reject(pincong.rocks)
+    - reject(dafahao.com)
