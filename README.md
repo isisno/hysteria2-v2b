@@ -43,7 +43,7 @@ trafficStats:
   listen: 127.0.0.1:7653
 acl: 
   inline: 
-    - reject(pincong.rocks) #acl规则自行查阅hysteria2文档
+    - reject(dafahao.com) #acl规则自行查阅hysteria2文档
 ```
 
 ### 配置ssl证书，使用acme配置证书要占用80端口，可以解除占用80端口的程序之后再重启：  
